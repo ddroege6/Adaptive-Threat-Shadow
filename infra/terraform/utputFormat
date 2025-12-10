@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+content-type: application/json
+x-cloud-trace-context: 27e4a7c504c53facbbebe182dc8c4dfe;o=1
+date: Wed, 10 Dec 2025 02:52:38 GMT
+server: Google Frontend
+Content-Length: 218
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{"data":{"indicator":"192.168.1.50","source":"Mock-OSINT-Feed","suspicion":"Potential C2 Node activity detected","timestamp":1765335158.5134747,"type":"ip_address"},"message_id":"17296137943798605","status":"success"}
