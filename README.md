@@ -51,7 +51,7 @@ The system runs entirely on **Google Cloud Platform (GCP)**. Think of it like a 
 * **The Brain (Vertex AI/Gemini):** Interprets the signal and decides if it's dangerous.
 * **The Memory (Firestore):** Remembers every event for historical tracking.
 * **The Face (Dashboard):** A clean interface for humans to see what's happening.
-* [cite_start]**The Vitals (Cloud Monitoring):** Constant health checks that alert the admin if components fail or costs spike. [cite: 1]
+* **The Vitals (Cloud Monitoring):** Constant health checks that alert the admin if components fail or costs spike.
 
 ```mermaid
 graph TD
@@ -69,7 +69,7 @@ graph TD
         
         PubSub["Nervous System (Pub/Sub)"]
         Firestore[("Memory (Firestore)")]
-        Vertex["Intelligence (Gemini Pro)"]
+        Vertex["Intelligence (Gemini)"]
         Monitoring["Vitals (Cloud Monitoring)"]
     end
 
@@ -172,7 +172,7 @@ The system includes built-in "Self-Monitoring" to ensure reliability and prevent
 
 ### 1️⃣ Clone the Repo
 ```bash
-git clone [[https://github.com/YOUR_USERNAME/adaptive-threat-shadow.git](https://github.com/YOUR_USERNAME/adaptive-threat-shadow.git)]
+git clone [https://github.com/YOUR_USERNAME/adaptive-threat-shadow.git]
 cd adaptive-threat-shadow
 ```
 
